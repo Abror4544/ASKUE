@@ -1,0 +1,78 @@
+section.about {
+  padding-top: 231px;
+}
+
+section.about .toptext {
+  margin-top: 93px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+section.about .toptext .rightTexts {
+  width: 64%;
+}
+
+section.about .toptext img {
+  width: 432px;
+  height: 277px;
+}
+
+section.about .toptext p {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 33px;
+  color: #1C1C1C;
+}
+
+section.about .bottomtext p {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 33px;
+  color: #1C1C1C;
+  margin-top: 44px;
+}
+
+footer .footerMain {
+  display: flex;
+}
+
+
+
+
+@media screen and (max-width: 1300px) {
+  section.about .toptext {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+
+  section.about .toptext .rightTexts {
+    width: 100%;
+    margin-top: 30px;
+  }
+
+  section.about .toptext img {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+
+@media screen and (max-width: 767px) {
+  section.about {
+    padding-top: 131px;
+  }
+
+  section.about .toptext {
+    margin-top: 41px;
+  }
+}

@@ -1,0 +1,1328 @@
+* {
+  margin: 0;
+  list-style: none;
+  text-decoration: none;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url("../fonts/Roboto/Roboto-Regular.ttf");
+}
+
+@font-face {
+  font-family: 'Post No Bills Jaffna SemiBold';
+  src: url("../fonts/PostNoBills/PostNoBillsJaffna-SemiBold.ttf");
+}
+
+.btnLink {
+  background: #FF8A00;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 21px;
+  line-height: 25px;
+  text-align: center;
+  color: #FFFFFF;
+  text-align: center;
+  padding-top: 16px;
+  padding-bottom: 17px;
+  padding-left: 0;
+  padding-right: 0;
+  border: none;
+  cursor: pointer;
+  outline-style: none;
+  border: 2px solid #FF8A00;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.btnLink svg {
+  margin-bottom: 1%;
+}
+
+.btnLink:hover {
+  background: #ffffff;
+  color: #1C1C1C;
+}
+
+.btnLink:hover path {
+  stroke: #1c1c1c;
+}
+
+.btnLinkReverse {
+  background: #ffffff;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 21px;
+  line-height: 25px;
+  text-align: center;
+  color: #1C1C1C;
+  text-align: center;
+  padding-top: 16px;
+  padding-bottom: 17px;
+  padding-left: 0;
+  padding-right: 0;
+  border: none;
+  cursor: pointer;
+  outline-style: none;
+  border: 2px solid #FF8A00;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.btnLinkReverse svg {
+  margin-bottom: 1%;
+}
+
+.btnLinkReverse path {
+  stroke: #1c1c1c;
+}
+
+.btnLinkReverse:hover {
+  background: #FF8A00;
+  color: #ffffff;
+}
+
+.btnLinkReverse:hover path {
+  stroke: #ffffff;
+}
+
+.headerTextsBlock {
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding-top: 90px;
+}
+
+.header .effectHeader {
+  background: url("../images/headerbg.jpg") no-repeat center center/cover;
+}
+
+.header_texts {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100vh;
+  background: -webkit-gradient(linear, left top, right top, from(rgba(0, 89, 198, 0.8)), color-stop(138.87%, rgba(0, 89, 198, 0)));
+  background: -o-linear-gradient(left, rgba(0, 89, 198, 0.8) 0%, rgba(0, 89, 198, 0) 138.87%);
+  background: linear-gradient(90deg, rgba(0, 89, 198, 0.8) 0%, rgba(0, 89, 198, 0) 138.87%);
+}
+
+.header_texts .header_title {
+  font-family: 'Post No Bills Jaffna SemiBold', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 60px;
+  line-height: 90px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+.header_texts .header_title span {
+  color: #FF8A00;
+}
+
+.header_texts .header_text {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 120%;
+  color: #FFFFFF;
+  width: 585px;
+}
+
+.header_texts .header_link {
+  margin-top: 73px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.header_texts .header_link svg {
+  margin-left: 12px;
+}
+
+.topmenu {
+  position: fixed;
+  width: 100%;
+  z-index: 99;
+}
+
+.menu {
+  width: 100%;
+  min-height: 10px;
+  background: #ffffff;
+  -webkit-box-shadow: 0px 4px 28px 0px #00000026;
+          box-shadow: 0px 4px 28px 0px #00000026;
+  padding: 18px 0 19px 0;
+}
+
+.menu_navbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.menu_navbar .menu_btn_bars {
+  background: none;
+  outline-style: none !important;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+  -webkit-transition: .5s;
+  -o-transition: .5s;
+  transition: .5s;
+  display: none;
+  z-index: 2000;
+  padding: 0;
+}
+
+.menu_navbar .menu_btn_bars .fa {
+  color: #fa7c30;
+}
+
+.menu_navbar .menu_btn_close {
+  background: none;
+  outline-style: none !important;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+  display: none;
+  z-index: 2000;
+  padding: 0;
+}
+
+.menu_navbar .menu_btn_close .fa {
+  color: #fa7c30;
+}
+
+.menu_navbar .menu_ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.menu_navbar .menu_ul .main_menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 0;
+  width: 100%;
+}
+
+.menu_navbar .menu_ul .main_menu .menu_li {
+  position: relative;
+  padding: 14px 0;
+  margin-right: 16px;
+  margin-left: 16px;
+}
+
+.menu_navbar .menu_ul .main_menu .menu_li a {
+  font-family: 'Roboto';
+  font-size: 17px;
+  font-weight: 400;
+  color: #1C1C1C;
+  text-transform: uppercase;
+}
+
+.menu_navbar .menu_ul .main_menu .menu_li a:hover {
+  color: #1F396A;
+  font-weight: 700;
+}
+
+.menu_navbar .headerPhoneBlock {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 274px;
+}
+
+.menu_navbar .headerPhoneBlock img {
+  margin-right: 21px;
+}
+
+.menu_navbar .headerPhoneBlock p {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 21px;
+  color: #1C1C1C;
+}
+
+.mainTitle {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 47px;
+  text-transform: uppercase;
+  color: #1C1C1C;
+  text-align: center;
+}
+
+.btnSlide {
+  background: #FFFFFF !important;
+  -webkit-box-shadow: 0px 4px 20px rgba(5, 55, 114, 0.28) !important;
+          box-shadow: 0px 4px 20px rgba(5, 55, 114, 0.28) !important;
+  width: 63px !important;
+  height: 63px !important;
+  border-radius: 50% !important;
+  outline-style: none !important;
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  cursor: pointer;
+}
+
+.btnSlide::after {
+  content: '' !important;
+}
+
+.swiper-button-next,
+.swiper-button-next2 {
+  right: 70px !important;
+  top: 56% !important;
+}
+
+.swiper-button-prev,
+.swiper-button-prev2 {
+  left: 70px !important;
+  top: 56% !important;
+}
+
+.swiper-button-next2 {
+  right: 70px !important;
+  top: 42% !important;
+  z-index: 10;
+}
+
+.swiper-button-prev2 {
+  left: 70px !important;
+  top: 42% !important;
+  z-index: 10;
+}
+
+section.one {
+  padding: 140px 0 146px 0;
+}
+
+section.one h3 {
+  margin-bottom: 150px;
+}
+
+section.one .directionBlock {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+section.one .directionCard {
+  background: #FFFFFF;
+  border: 5px solid #FFFEFE;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-box-shadow: -1px 4px 20px rgba(5, 55, 114, 0.28);
+          box-shadow: -1px 4px 20px rgba(5, 55, 114, 0.28);
+  border-radius: 10px;
+  padding: 180px 56px 80px 81px;
+  position: relative;
+}
+
+section.one .directionCard:hover p {
+  color: #595858;
+}
+
+section.one .directionCard img {
+  position: absolute;
+  top: -75px;
+}
+
+section.one .directionCard h4 {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 29px;
+  color: #1C1C1C;
+}
+
+section.one .directionCard .line {
+  border: 1.3px solid rgba(169, 169, 169, 0.8);
+  margin: 35px 0 42px 0;
+  background: rgba(169, 169, 169, 0.8);
+}
+
+section.one .directionCard p {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 19px;
+  line-height: 22px;
+  color: #1C1C1C;
+  margin-bottom: 83px;
+}
+
+section.one .directionCard a {
+  padding-left: 13px;
+  padding-right: 18px;
+}
+
+section.one .directionCard a svg {
+  margin-left: 28px;
+}
+
+section.two {
+  padding: 140px 0 149px 0;
+  background: #F2EDED;
+}
+
+section.two h3 {
+  margin-bottom: 70px;
+}
+
+section.two .twoLeft {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 100%;
+}
+
+section.two .twoLeft p {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 23px;
+  color: #1C1C1C;
+}
+
+section.two .twoLeft a {
+  margin-top: 50px;
+  padding-left: 13px;
+  padding-right: 18px;
+}
+
+section.two .twoLeft a svg {
+  margin-left: 28px;
+}
+
+section.two .twoRight img {
+  width: 100%;
+}
+
+section.three {
+  padding: 142px 0 138px 0;
+}
+
+section.three .profitsBlock {
+  margin-top: 81px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+section.three .profitBlock.one {
+  background: url("../images/s3one.jpg") no-repeat center center/cover;
+}
+
+section.three .profitBlock.two {
+  background: url("../images/s3two.jpg") no-repeat center center/cover;
+}
+
+section.three .profitBlock.three {
+  background: url("../images/s3three.jpg") no-repeat center center/cover;
+}
+
+section.three .profitBlock .profitEffect {
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(-94.75%, rgba(54, 54, 54, 0)), color-stop(16.75%, rgba(54, 54, 54, 0.0854984)), to(rgba(54, 54, 54, 0.9)));
+  background: -o-linear-gradient(top, rgba(54, 54, 54, 0) -94.75%, rgba(54, 54, 54, 0.0854984) 16.75%, rgba(54, 54, 54, 0.9) 100%);
+  background: linear-gradient(180deg, rgba(54, 54, 54, 0) -94.75%, rgba(54, 54, 54, 0.0854984) 16.75%, rgba(54, 54, 54, 0.9) 100%);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 188px 22px 31px 21px;
+  height: 376px;
+}
+
+section.three .profitBlock .profitEffect h4 {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 19px;
+  line-height: 22px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+section.three .profitBlock .profitEffect p {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 19px;
+  line-height: 22px;
+  color: #FFFFFF;
+}
+
+section.three .profitBlock .profitEffect .profitText {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  height: 70%;
+}
+
+section.four {
+  padding: 140px 0 149px 0;
+  background: #F2EDED;
+}
+
+section.four .projectsBlock {
+  margin: 70px 0;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+section.four .projectCard {
+  background: #FFFFFF;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-box-shadow: -1px 4px 20px rgba(5, 55, 114, 0.28);
+          box-shadow: -1px 4px 20px rgba(5, 55, 114, 0.28);
+  border-radius: 10px;
+}
+
+section.four .projectCard:hover .img img {
+  -webkit-transform: scale(1.2);
+      -ms-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+section.four .projectCard .img {
+  height: 292px;
+  overflow: hidden;
+}
+
+section.four .projectCard .img img {
+  -webkit-transition: .5s;
+  -o-transition: .5s;
+  transition: .5s;
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+section.four .projectCard .projectCardInfo {
+  height: 400px;
+  padding: 39px 40px 73px 80px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+section.four .projectCard .projectCardInfo h4 {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 29px;
+  color: #1F1F1F;
+}
+
+section.four .projectCard .projectCardInfo .info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 117px;
+}
+
+section.four .projectCard .projectCardInfo .locationBlock {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+section.four .projectCard .projectCardInfo .locationBlock p {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 23px;
+  color: #1F1F1F;
+  margin-left: 26px;
+}
+
+section.four .projectCard .projectCardInfo .dateBlock {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+section.four .projectCard .projectCardInfo .dateBlock p {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 19px;
+  line-height: 22px;
+  color: #1F1F1F;
+  margin-left: 26px;
+}
+
+section.four .buttonFour {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 68px;
+}
+
+section.four .buttonFour a {
+  padding-left: 26px;
+  padding-right: 16px;
+}
+
+section.four .buttonFour a svg {
+  margin-left: 20px;
+}
+
+section.five {
+  padding: 140px 0 145px 0;
+  position: relative;
+}
+
+section.five .swiper-license {
+  margin-top: 75px;
+  overflow: hidden;
+}
+
+section.five .swiper-license .licenseBlock img {
+  width: 100%;
+}
+
+section.five .swiper-license .licenseBlock a {
+  cursor: -webkit-zoom-in;
+  cursor: zoom-in;
+}
+
+section.six {
+  padding: 0px 0 115px 0;
+  position: relative;
+}
+
+section.six .swiper-clients {
+  margin-top: 57px;
+  overflow: hidden;
+}
+
+section.six .swiper-clients .clientBlock {
+  width: 190px;
+  height: 207px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+section.six .swiper-clients .clientBlock img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: scale-down;
+     object-fit: scale-down;
+}
+
+section.seven {
+  background: url("../images/footerbg.jpg") no-repeat center center/cover;
+}
+
+section.seven .effectForm {
+  background: -webkit-gradient(linear, left top, right top, from(rgba(0, 89, 198, 0.8)), color-stop(138.87%, rgba(0, 89, 198, 0)));
+  background: -o-linear-gradient(left, rgba(0, 89, 198, 0.8) 0%, rgba(0, 89, 198, 0) 138.87%);
+  background: linear-gradient(90deg, rgba(0, 89, 198, 0.8) 0%, rgba(0, 89, 198, 0) 138.87%);
+  padding: 191px 0 116px 0;
+}
+
+section.seven .leftForm {
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+section.seven .leftForm h4 {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 47px;
+  color: #FFFFFF;
+  margin-bottom: 50px;
+}
+
+section.seven .leftForm .infoBlock {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  margin-top: 21px;
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+}
+
+section.seven .leftForm .infoBlock p {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 140%;
+  color: #FFFFFF;
+  margin-left: 26px;
+}
+
+section.seven .formBlock {
+  background: #FFFFFF;
+  border: 5px solid #FFFEFE;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-box-shadow: -1px 4px 76px rgba(18, 18, 18, 0.51);
+          box-shadow: -1px 4px 76px rgba(18, 18, 18, 0.51);
+  border-radius: 10px;
+  padding: 74px 82px 80px 82px;
+}
+
+section.seven .formBlock form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+section.seven .formBlock form h3 {
+  margin-bottom: 51px;
+}
+
+section.seven .formBlock form input,
+section.seven .formBlock form textarea {
+  width: 100%;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  background: rgba(243, 243, 243, 0.63);
+  border: none;
+  padding: 15px 0 15px 40px;
+  outline-style: none;
+  margin-bottom: 26px;
+  resize: none;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 140%;
+  color: #1F1F1F;
+}
+
+section.seven .formBlock form button {
+  margin-top: 60px;
+  padding-left: 29px;
+  padding-right: 16px;
+}
+
+section.seven .formBlock form button svg {
+  margin-left: 23px;
+}
+
+footer {
+  background: #F2EDED;
+}
+
+footer .footerMain {
+  display: none;
+  padding: 50px 0;
+}
+
+footer .footerMain h4 {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+  color: #1F1F1F;
+  margin-bottom: 12px;
+}
+
+footer .footerMain .footerLinks a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 16px;
+  color: #0D0D0D;
+  margin-bottom: 4px;
+}
+
+footer .footerMain .footerLinks a:hover {
+  color: #1F396A;
+}
+
+footer .footerMain .footerInfo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 20px;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+footer .footerMain .footerInfo p {
+  margin-left: 14.5px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 140%;
+  color: #1B1B1B;
+}
+
+footer .footerest {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 38px 0 36px 0;
+}
+
+footer .footerest div {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+  color: #1F1F1F;
+}
+
+@media screen and (min-width: 768) {
+  .menu_navbar .menu_ul {
+    -webkit-transform: translateY(0%);
+        -ms-transform: translateY(0%);
+            transform: translateY(0%);
+  }
+}
+
+@media screen and (max-width: 1400px) {
+  section.four .projectCard .projectCardInfo h4 {
+    font-size: 20px;
+  }
+
+  section.four .projectCard .projectCardInfo .locationBlock p {
+    font-size: 18px;
+  }
+
+  section.four .projectCard .projectCardInfo .dateBlock p {
+    font-size: 17px;
+  }
+}
+
+@media screen and (max-width: 1350px) {
+  .menu_navbar .menu_ul .main_menu .menu_li a {
+    font-size: 14px;
+  }
+
+  .menu_navbar .headerPhoneBlock p {
+    font-size: 14px;
+  }
+}
+
+
+
+@media screen and (max-width: 1221px) {
+  .menu_navbar .menu_btn_bars {
+    display: block;
+  }
+
+  .menu_navbar .menu_ul {
+    position: absolute;
+    top: 40px;
+    left: 0;
+    -webkit-transition: .5s;
+    -o-transition: .5s;
+    transition: .5s;
+    -webkit-transform: translateY(-100%);
+        -ms-transform: translateY(-100%);
+            transform: translateY(-100%);
+    z-index: -1;
+    width: 100%;
+    background: #F4F4F4;
+    height: 100vh;
+  }
+
+  .menu_navbar .menu_ul .main_menu {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+
+  .menu_navbar .menu_ul .main_menu .menu_li a {
+    font-size: 18px;
+    font-weight: 700;
+  }
+}
+
+@media screen and (max-width: 1199px) {
+  section.one {
+    padding: 140px 0 6px 0;
+  }
+
+  section.one .directionCard {
+    margin-bottom: 100px;
+  }
+
+  section.three {
+    padding: 142px 0 88px 0;
+  }
+
+  section.three .profitBlock {
+    margin-bottom: 30px;
+  }
+
+  section.four .projectCard {
+    margin-bottom: 40px;
+  }
+
+  section.four .projectCard .projectCardInfo h4 {
+    font-size: 25px;
+  }
+
+  section.four .projectCard .projectCardInfo .locationBlock p {
+    font-size: 20px;
+  }
+
+  section.four .projectCard .projectCardInfo .dateBlock p {
+    font-size: 19px;
+  }
+
+  section.four .buttonFour {
+    margin-top: 28px;
+  }
+
+  section.seven .leftForm {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+
+  section.seven .formBlock {
+    margin-top: 50px;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  section.two .twoRight {
+    display: none;
+  }
+
+  section.four .projectsBlock {
+    margin: 50px 0;
+  }
+
+  section.four .projectCard .projectCardInfo {
+    height: 318px;
+    padding: 39px 40px 43px 40px;
+  }
+
+  section.four .projectCard .projectCardInfo .info {
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+  }
+
+  footer .footerMain .footerPart {
+    margin-bottom: 25px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .btnLink {
+    font-size: 14px;
+    line-height: 120%;
+    padding-top: 10px;
+    padding-bottom: 12px;
+  }
+
+  .btnLinkReverse {
+    font-size: 14px;
+    line-height: 120%;
+    padding-top: 10px;
+    padding-bottom: 12px;
+  }
+
+  .header_texts {
+    height: 100vh;
+  }
+
+  .header_texts .header_title {
+    text-align: center;
+    font-size: 36px;
+    margin-top: 22px;
+  }
+
+  .header_texts .header_text {
+    width: 100%;
+  }
+
+  .header_texts .header_link {
+    margin-top: 33px;
+  }
+
+  .menu_navbar {
+    padding: 8px 0 9px 0;
+  }
+
+  .menu_navbar .logo img {
+    width: 100px;
+  }
+
+  .menu_navbar .menu_ul .main_menu .menu_li {
+    padding: 11px 0;
+    margin-right: 0px;
+  }
+
+  .menu_navbar .headerPhoneBlock {
+    width: 150px;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+  }
+
+  .menu_navbar .headerPhoneBlock img {
+    width: 15px;
+    margin-right: 5px;
+  }
+
+  .menu_navbar .headerPhoneBlock p {
+    font-size: 12px;
+  }
+
+  .mainTitle {
+    font-size: 20px;
+    line-height: 120%;
+  }
+
+  section.one {
+    padding: 40px 0 6px 0;
+  }
+
+  section.one h3 {
+    margin-bottom: 70px;
+  }
+
+  section.one .directionCard {
+    padding: 70px 26px 40px 21px;
+  }
+
+  section.one .directionCard img {
+    width: 100px;
+    top: -42px;
+  }
+
+  section.one .directionCard h4 {
+    font-size: 17px;
+    line-height: 120%;
+    text-align: center;
+  }
+
+  section.one .directionCard .line {
+    margin: 25px 0 32px 0;
+  }
+
+  section.one .directionCard p {
+    font-size: 14px;
+    line-height: 120%;
+    margin-bottom: 43px;
+  }
+
+  section.two {
+    padding: 40px 0 49px 0;
+  }
+
+  section.two h3 {
+    margin-bottom: 40px;
+  }
+
+  section.two .twoLeft p {
+    font-size: 14px;
+    line-height: 120%;
+  }
+
+  section.two .twoLeft a {
+    margin-top: 30px;
+  }
+
+  section.three {
+    padding: 42px 0 48px 0;
+  }
+
+  section.three .profitsBlock {
+    margin-top: 50px;
+  }
+
+  section.three .profitBlock .profitEffect {
+    height: 270px;
+    padding: 88px 22px 31px 21px;
+  }
+
+  section.three .profitBlock .profitEffect h4 {
+    font-size: 17px;
+    line-height: 120%;
+  }
+
+  section.three .profitBlock .profitEffect p {
+    font-size: 14px;
+    line-height: 120%;
+  }
+
+  section.four {
+    padding: 40px 0 49px 0;
+  }
+
+  section.four .projectsBlock {
+    margin: 30px 0 0 0;
+  }
+
+  section.four .projectCard .projectCardInfo h4 {
+    font-size: 17px;
+  }
+
+  section.four .projectCard .projectCardInfo .locationBlock p {
+    font-size: 15px;
+  }
+
+  section.four .projectCard .projectCardInfo .dateBlock p {
+    font-size: 14px;
+  }
+
+  section.four .buttonFour {
+    margin: 0;
+  }
+
+  section.five {
+    padding: 40px 0 45px 0;
+  }
+
+  section.six {
+    padding: 0px 0 45px 0;
+  }
+
+  section.seven .effectForm {
+    padding: 51px 0 46px 0;
+  }
+
+  section.seven .leftForm h4 {
+    font-size: 20px;
+    margin-bottom: 30px;
+  }
+
+  section.seven .leftForm .infoBlock {
+    margin-top: 15px;
+  }
+
+  section.seven .leftForm .infoBlock p {
+    font-size: 17px;
+  }
+
+  section.seven .formBlock {
+    padding: 44px 30px 50px 30px;
+  }
+
+  section.seven .formBlock form h3 {
+    margin-bottom: 31px;
+  }
+
+  section.seven .formBlock form input,
+  section.seven .formBlock form textarea {
+    font-size: 17px;
+  }
+
+  section.seven .formBlock form button {
+    margin-top: 30px;
+  }
+
+  footer .footerMain {
+    padding: 50px 0 0 0;
+  }
+
+  footer .footerest {
+    padding: 18px 0 16px 0;
+  }
+
+  footer .footerest div {
+    line-height: 153%;
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .swiper-button-next,
+  .swiper-button-next2 {
+    top: 46% !important;
+    right: 20px !important;
+  }
+
+  .swiper-button-prev,
+  .swiper-button-prev2 {
+    top: 46% !important;
+    left: 20px !important;
+  }
+
+  .swiper-button-next2 {
+    top: 46% !important;
+    right: 20px !important;
+  }
+
+  .swiper-button-prev2 {
+    top: 46% !important;
+    left: 20px !important;
+  }
+}
+
+@media screen and (max-width: 568px) {
+  .header_texts .header_title {
+    font-size: 26px;
+    margin-top: 22px;
+  }
+}
