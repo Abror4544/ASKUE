@@ -1,20 +1,26 @@
 section.one {
-  padding: 230px 0 146px 0;
+	padding: 230px 0 146px 0;
+}
+
+@media screen and (max-width: 1366px){
+	section.one {
+		padding: 150px 0 76px 0;
+	}
 }
 
 
 @media screen and (max-width: 1199px) {
-  section.one {
-    padding: 230px 0 6px 0;
-  }
+	section.one {
+		padding: 230px 0 6px 0;
+	}
 }
 @media screen and (max-width: 767px) {
-  section.one {
-    padding: 130px 0 6px 0;
-  }
+	section.one {
+		padding: 130px 0 6px 0;
+	}
 }
 
 footer .footerMain {
-  display: flex;
+	display: flex;
 }
 
