@@ -33,7 +33,7 @@
   outline-style: none;
   border: 2px solid #FF8A00;
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 .btnLink svg {
@@ -68,7 +68,7 @@
   outline-style: none;
   border: 2px solid #FF8A00;
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 .btnLinkReverse svg {
@@ -94,15 +94,15 @@
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   padding-top: 90px;
 }
 
@@ -115,11 +115,11 @@
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   height: 100vh;
   background: -webkit-gradient(linear, left top, right top, from(rgba(0, 89, 198, 0.8)), color-stop(138.87%, rgba(0, 89, 198, 0)));
   background: -o-linear-gradient(left, rgba(0, 89, 198, 0.8) 0%, rgba(0, 89, 198, 0) 138.87%);
@@ -171,7 +171,7 @@
   min-height: 10px;
   background: #ffffff;
   -webkit-box-shadow: 0px 4px 28px 0px #00000026;
-          box-shadow: 0px 4px 28px 0px #00000026;
+  box-shadow: 0px 4px 28px 0px #00000026;
   padding: 18px 0 19px 0;
 }
 
@@ -180,11 +180,11 @@
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 .menu_navbar .menu_btn_bars {
@@ -225,15 +225,15 @@
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
 }
 
 .menu_navbar .menu_ul .main_menu {
@@ -242,11 +242,11 @@
   display: flex;
   text-align: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   padding: 0;
   width: 100%;
 }
@@ -276,11 +276,11 @@
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   width: 274px;
 }
 
@@ -311,7 +311,7 @@
 .btnSlide {
   background: #FFFFFF !important;
   -webkit-box-shadow: 0px 4px 20px rgba(5, 55, 114, 0.28) !important;
-          box-shadow: 0px 4px 20px rgba(5, 55, 114, 0.28) !important;
+  box-shadow: 0px 4px 20px rgba(5, 55, 114, 0.28) !important;
   width: 63px !important;
   height: 63px !important;
   border-radius: 50% !important;
@@ -321,11 +321,11 @@
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   cursor: pointer;
 }
 
@@ -367,17 +367,17 @@ section.one h3 {
 
 section.one .directionBlock {
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
 }
 
 section.one .directionCard {
   background: #FFFFFF;
   border: 5px solid #FFFEFE;
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   -webkit-box-shadow: -1px 4px 20px rgba(5, 55, 114, 0.28);
-          box-shadow: -1px 4px 20px rgba(5, 55, 114, 0.28);
+  box-shadow: -1px 4px 20px rgba(5, 55, 114, 0.28);
   border-radius: 10px;
   padding: 180px 56px 80px 81px;
   position: relative;
@@ -440,15 +440,15 @@ section.two .twoLeft {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   height: 100%;
 }
 
@@ -485,11 +485,11 @@ section.three .profitsBlock {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 section.three .profitBlock.one {
@@ -513,11 +513,11 @@ section.three .profitBlock .profitEffect {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   padding: 188px 22px 31px 21px;
   height: 376px;
 }
@@ -546,8 +546,8 @@ section.three .profitBlock .profitEffect .profitText {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
   height: 70%;
 }
 
@@ -559,23 +559,23 @@ section.four {
 section.four .projectsBlock {
   margin: 70px 0;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
 }
 
 section.four .projectCard {
   background: #FFFFFF;
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   -webkit-box-shadow: -1px 4px 20px rgba(5, 55, 114, 0.28);
-          box-shadow: -1px 4px 20px rgba(5, 55, 114, 0.28);
+  box-shadow: -1px 4px 20px rgba(5, 55, 114, 0.28);
   border-radius: 10px;
 }
 
 section.four .projectCard:hover .img img {
   -webkit-transform: scale(1.2);
-      -ms-transform: scale(1.2);
-          transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
 }
 
 section.four .projectCard .img {
@@ -590,7 +590,7 @@ section.four .projectCard .img img {
   height: 100%;
   width: 100%;
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
 
 section.four .projectCard .projectCardInfo {
@@ -601,11 +601,11 @@ section.four .projectCard .projectCardInfo {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
 }
 
 section.four .projectCard .projectCardInfo h4 {
@@ -623,11 +623,11 @@ section.four .projectCard .projectCardInfo .info {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   height: 117px;
 }
 
@@ -636,8 +636,8 @@ section.four .projectCard .projectCardInfo .locationBlock {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
 }
 
 section.four .projectCard .projectCardInfo .locationBlock p {
@@ -655,8 +655,8 @@ section.four .projectCard .projectCardInfo .dateBlock {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 section.four .projectCard .projectCardInfo .dateBlock p {
@@ -674,8 +674,8 @@ section.four .buttonFour {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   margin-top: 68px;
 }
 
@@ -724,18 +724,18 @@ section.six .swiper-clients .clientBlock {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 section.six .swiper-clients .clientBlock img {
   width: 100%;
   height: 100%;
   -o-object-fit: scale-down;
-     object-fit: scale-down;
+  object-fit: scale-down;
 }
 
 section.seven {
@@ -755,15 +755,15 @@ section.seven .leftForm {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
 }
 
 section.seven .leftForm h4 {
@@ -781,11 +781,11 @@ section.seven .leftForm .infoBlock {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
   margin-top: 21px;
   -ms-flex-item-align: start;
-      align-self: flex-start;
+  align-self: flex-start;
 }
 
 section.seven .leftForm .infoBlock p {
@@ -802,9 +802,9 @@ section.seven .formBlock {
   background: #FFFFFF;
   border: 5px solid #FFFEFE;
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   -webkit-box-shadow: -1px 4px 76px rgba(18, 18, 18, 0.51);
-          box-shadow: -1px 4px 76px rgba(18, 18, 18, 0.51);
+  box-shadow: -1px 4px 76px rgba(18, 18, 18, 0.51);
   border-radius: 10px;
   padding: 74px 82px 80px 82px;
 }
@@ -814,15 +814,15 @@ section.seven .formBlock form {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
 }
 
 section.seven .formBlock form h3 {
@@ -833,8 +833,8 @@ section.seven .formBlock form input,
 section.seven .formBlock form textarea {
   width: 100%;
   -webkit-appearance: none;
-     -moz-appearance: none;
-          appearance: none;
+  -moz-appearance: none;
+  appearance: none;
   background: rgba(243, 243, 243, 0.63);
   border: none;
   padding: 15px 0 15px 40px;
@@ -902,8 +902,8 @@ footer .footerMain .footerInfo {
   display: flex;
   margin-bottom: 20px;
   -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
 }
 
 footer .footerMain .footerInfo p {
@@ -921,8 +921,8 @@ footer .footerest {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   padding: 38px 0 36px 0;
 }
 
@@ -938,8 +938,8 @@ footer .footerest div {
 @media screen and (min-width: 768) {
   .menu_navbar .menu_ul {
     -webkit-transform: translateY(0%);
-        -ms-transform: translateY(0%);
-            transform: translateY(0%);
+    -ms-transform: translateY(0%);
+    transform: translateY(0%);
   }
 }
 
@@ -957,7 +957,12 @@ footer .footerest div {
   }
 }
 
-@media screen and (max-width: 1350px) {
+
+@media screen and (max-width: 1366px){
+  .container{
+    max-width: 1200px;
+  }
+
   .menu_navbar .menu_ul .main_menu .menu_li a {
     font-size: 14px;
   }
@@ -965,7 +970,90 @@ footer .footerest div {
   .menu_navbar .headerPhoneBlock p {
     font-size: 14px;
   }
+
+  .menu_navbar .headerPhoneBlock img{
+    margin-right: 11px;
+  }
+
+  .menu_navbar .headerPhoneBlock{
+    width: auto;
+  }
+
+  .header_texts .header_title{
+    font-size: 54px;
+  }
+  .header_texts .header_text{
+    font-size: 17px;
+  }
+
+  .btnLink{
+    font-size: 14px;
+    line-height: 16px;
+    margin-top: 43px !important;
+  }
+
+  section.one, section.two, section.three, section.four, section.five, section.six, section.seven .effectForm{
+    padding: 90px 0;
+  }
+
+  .mainTitle {
+    font-size: 30px;
+  }
+  section.one .directionCard{
+    padding: 110px 46px 65px 46px;
+  }
+  section.one .directionCard h4{
+    font-size: 20px;
+  }
+  section.one .directionCard p{
+    font-size: 17px;
+  }
+  section.one .directionCard img{
+    width: 150px;
+  }
+  .btnLinkReverse{
+    font-size: 14px;
+    line-height: 16px;    
+  }
+  section.two .twoLeft p{
+    font-size: 17px;
+  }
+  section.three .profitBlock .profitEffect p{
+    font-size: 17px;
+  }
+  section.four .projectCard .projectCardInfo .locationBlock p{
+    font-size: 17px;
+  }
+  section.four .projectsBlock{
+    margin: 50px 0 30px 0;
+  }
+  section.four .buttonFour{
+    margin-top: 0px;
+  }
+  .swiper-button-next2, .swiper-button-prev2{
+    top: 54% !important;
+  }
+  section.seven .leftForm h4{
+    font-size: 30px;
+  }
+
+  section.seven .leftForm .infoBlock p{
+    font-size: 17px;
+  }
+  section.seven .formBlock{
+    padding: 34px 50px 34px 50px;
+  }
+  section.seven .formBlock form h3 {
+    margin-bottom: 20px;
+  }
+  section.seven .formBlock form input, section.seven .formBlock form textarea{
+    margin-bottom: 16px;
+    padding: 10px 0 10px 20px;
+    font-size: 17px;
+    line-height: 120%;
+  }
 }
+
 
 
 
@@ -982,8 +1070,8 @@ footer .footerest div {
     -o-transition: .5s;
     transition: .5s;
     -webkit-transform: translateY(-100%);
-        -ms-transform: translateY(-100%);
-            transform: translateY(-100%);
+    -ms-transform: translateY(-100%);
+    transform: translateY(-100%);
     z-index: -1;
     width: 100%;
     background: #F4F4F4;
@@ -993,8 +1081,8 @@ footer .footerest div {
   .menu_navbar .menu_ul .main_menu {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
   }
 
   .menu_navbar .menu_ul .main_menu .menu_li a {
@@ -1042,8 +1130,8 @@ footer .footerest div {
 
   section.seven .leftForm {
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
   }
 
   section.seven .formBlock {
@@ -1067,8 +1155,8 @@ footer .footerest div {
 
   section.four .projectCard .projectCardInfo .info {
     -webkit-box-pack: space-evenly;
-        -ms-flex-pack: space-evenly;
-            justify-content: space-evenly;
+    -ms-flex-pack: space-evenly;
+    justify-content: space-evenly;
   }
 
   footer .footerMain .footerPart {
@@ -1125,8 +1213,8 @@ footer .footerest div {
   .menu_navbar .headerPhoneBlock {
     width: 150px;
     -webkit-box-pack: end;
-        -ms-flex-pack: end;
-            justify-content: flex-end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
   }
 
   .menu_navbar .headerPhoneBlock img {
