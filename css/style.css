@@ -958,10 +958,13 @@ footer .footerest div {
 }
 
 
-@media screen and (max-width: 1366px){
+@media screen and (max-width: 2100px) and (min-width: 1200px){
   .container{
     max-width: 1200px;
   }
+}
+
+@media screen and (max-width: 2100px){  
 
   .menu_navbar .menu_ul .main_menu .menu_li a {
     font-size: 14px;
