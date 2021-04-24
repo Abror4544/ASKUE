@@ -108,31 +108,22 @@ footer .footerMain {
 }
 
 
-@media screen and (max-width: 1400px) {
 
-  section.projects .projectCard .projectCardInfo h4 {
-    font-size: 20px;
-  }
-
-  section.projects .projectCard .projectCardInfo .locationBlock p {
-    font-size: 18px;
-  }
-
-  section.projects .projectCard .projectCardInfo .dateBlock p {
-    font-size: 17px;
-  }
-}
-
-
-@media screen and (max-width: 1366px){
+@media screen and (max-width: 2100px){
   section.projects{
     padding: 150px 0 30px 0;
+  }
+  section.projects .projectCard .projectCardInfo h4 {
+    font-size: 20px;
   }
   section.projects .projectCard .projectCardInfo .locationBlock p{
     font-size: 17px;
   }
   section.projects .projectCard .projectCardInfo {
     padding: 39px 40px 73px 46px;
+  }
+  section.projects .projectCard .projectCardInfo .dateBlock p {
+    font-size: 17px;
   }
 }
 
