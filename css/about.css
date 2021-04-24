@@ -45,6 +45,20 @@ footer .footerMain {
 }
 
 
+@media screen and (max-width: 1366px){
+  section.about{
+    padding-top: 150px;
+  }
+  section.about .toptext .rightTexts{
+    width: 58%;
+  }
+  section.about .toptext p{
+    font-size: 17px;
+  }
+  section.about .bottomtext p{
+    font-size: 17px;
+  }
+}
 
 
 @media screen and (max-width: 1300px) {
