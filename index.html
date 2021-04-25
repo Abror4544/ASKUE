@@ -71,7 +71,7 @@
                      <h3 class="header_title"><span>АСКУЭ</span> В КАЗАХСТАНЕ</h3>
                      <p class="header_text">Основные направления деятельности компании АстанаЭлектроСтройСервис - это проектирование, поставка оборудования и внедрение автоматизированных систем коммерческого учета электроэнергии (АСКУЭ) и телеметрии
                      </p>
-                     <a href="#form" class="header_link btnLink">
+                     <a class="header_link btnLink">
                         Оставить заявку
                         <svg width="47" height="8" viewBox="0 0 47 8" fill="none" xmlns="http://www.w3.org/2000/svg">
                            <path d="M46.3536 4.35355C46.5488 4.15829 46.5488 3.84171 46.3536 3.64645L43.1716 0.464466C42.9763 0.269204 42.6597 0.269204 42.4645 0.464466C42.2692 0.659728 42.2692 0.976311 42.4645 1.17157L45.2929 4L42.4645 6.82843C42.2692 7.02369 42.2692 7.34027 42.4645 7.53553C42.6597 7.7308 42.9763 7.7308 43.1716 7.53553L46.3536 4.35355ZM0 4.5H46V3.5H0V4.5Z" fill="white"/>
@@ -427,7 +427,7 @@
             </div>
          </div>
       </section>
-      <section id="form" class="seven">
+      <section class="seven">
          <div class="effectForm">
             <div class="container">
                <div class="row">
@@ -519,7 +519,41 @@
                <div>Cоздание сайтов Astana-IT</div>
             </div>
          </div>
-      </footer>
+      </footer>      
+      <div class="formWrapper">
+         <div class="form">
+            <form>
+               <div class="closeBlock">
+                  <button class="formClose">
+                     <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M13.5 1.25L1 13.75" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M1 1.25L13.5 13.75" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                     </svg>
+                  </button>
+               </div>
+               <h3 class="formTitle">Оставьте заявку</h3>
+               <div class="agreement">
+                  <svg class="check" width="10" height="8" viewBox="0 0 10 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                     <path d="M1.59814 5.23576L3.36727 6.91488L9.26435 1.31781" stroke="#2196F3" stroke-width="1.4153" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg>
+                  <svg width="13" height="12" viewBox="0 0 13 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                     <path d="M11.6748 5.79682V9.71477C11.6748 10.0117 11.5506 10.2964 11.3294 10.5063C11.1082 10.7162 10.8082 10.8342 10.4954 10.8342H2.23948C1.92667 10.8342 1.62669 10.7162 1.4055 10.5063C1.18432 10.2964 1.06006 10.0117 1.06006 9.71477V1.87887C1.06006 1.58199 1.18432 1.29726 1.4055 1.08733C1.62669 0.877398 1.92667 0.75946 2.23948 0.75946H8.72627" stroke="black" stroke-width="0.70765" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg>
+                  <p class="agreementText">Заполняя эти поля, вы принимаете условия соглашения о персональных данных</p>
+               </div>
+               <input type="text" placeholder="ФИО *" required>
+               <input type="tel" placeholder="Телефон *" required>
+               <input type="mail" placeholder="Почта">
+               <textarea rows="3" placeholder="Ваш комментарий"></textarea>
+               <div class="formBottom">
+                  <div class="success">
+                     <p class="successMsg">Заявка успешно отправлена</p>
+                  </div>
+                  <button class="sendBtn" type="submit">Отправить</button>
+               </div>
+            </form>
+         </div>
+      </div>
       <script src="js/jquery.js"></script>
       <script src="js/main.js"></script>
       <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
