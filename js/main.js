@@ -16,5 +16,16 @@ $(function () {
         $('.menu_btn_bars').show();
         $('.menu_ul').css('transform', 'translateY(-100%)');
         $('body').css('overflow', 'auto');
-    })
+    });
+
+    $('.header_link').click(() => {
+        $('.formWrapper').css('display', 'flex');
+        $('body').css('overflow', 'hidden');
+    });
+
+    $('.formClose').click(() => {
+        $('.formWrapper').css('display', 'none');
+        $('body').css('overflow', 'auto');
+    });
+    
 })
